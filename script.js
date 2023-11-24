@@ -23,7 +23,7 @@ function daysOfAYear() {
     const result = isLeapYear(year) ? daysInLeapYear : daysInNonLeapYear;
 
     // Display the result
-    alert(`The number of days in ${year} is: ${result}`);
+    alert(result);
 }
 
 // Call the function to get user input and display the result
